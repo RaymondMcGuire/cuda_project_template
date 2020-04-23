@@ -4,7 +4,6 @@ set(CUDA_LIB_NAME "cuda")
 set(CUDA_LIB_INLCUDE "../cuda/include")
 set(PROJECT_NAME main)
 
-
 file(GLOB SOURCES "src/*.cpp" "src/*.c")
 file(GLOB HEADERS "include/*.hpp" "include/*.h")
 
